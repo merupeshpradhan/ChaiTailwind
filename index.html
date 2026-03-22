@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChaiTailwind Project</title>
+</head>
+
+<body class="chai-p-20 chai-bg-lightgray">
+
+    <h1 class="chai-text-center chai-mb-20">Chai Tailwind</h1>
+
+    <!-- FORM -->
+    <form onsubmit="addUser(event)" class="chai-flex chai-flex-col chai-items-center">
+        <input id="name" placeholder="Enter Name" class="chai-p-10 chai-mb-10 chai-w-50 chai-outline-none">
+
+        <input id="email" placeholder="Enter Email" class="chai-p-10 chai-mb-10 chai-w-50 chai-outline-none">
+
+        <input type="file" id="image" class="chai-p-10 chai-mb-10 chai-w-50">
+
+        <!-- IMAGE PREVIEW -->
+        <img id="preview" class="chai-w-20 chai-h-200 chai-mb-10" style="display:none;">
+
+        <!-- BUTTON -->
+        <button type="submit" class="chai-p-10 chai-bg-blue chai-text-white chai-rounded-5 chai-border-0">
+            Add User
+        </button>
+
+    </form>
+
+    <!-- LIST -->
+    <div id="list" class="chai-mt-20 chai-flex chai-wrap chai-gap-10"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
