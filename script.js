@@ -3,7 +3,7 @@ window.onload = () => {
   applyChai();
 };
 
-// ================= CHAI ENGINE =================
+// ================= CHAI Tailwind ENGINE =================
 function applyChai() {
   document.querySelectorAll("*").forEach((el) => {
     el.classList.forEach((cls) => {
